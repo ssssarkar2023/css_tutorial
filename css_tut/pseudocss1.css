@@ -1,0 +1,47 @@
+/* Link = Unvisited */
+
+a:link{
+    text-decoration: none;
+    color:red;
+}
+
+
+/* Visited*/
+a:visited{
+    color:yellow;
+}
+
+
+/* hover*/
+a:hover{
+    background-color:coral;
+    color:#fff;
+    padding:20px;
+    border-radius: 5px;
+
+}
+/*
+section.main-section:hover{
+    background-color:green;
+    color:#fff;
+}*/
+
+/*
+section h3{
+    display:none;
+}
+
+section.main-section:hover h3{
+    display:block;
+}*/
+
+/*first child*/
+
+h3:first-child{
+    background-color:#999;
+    color:#fff;
+}
+
+h3 span:first-child{
+    color:yellowgreen;
+}

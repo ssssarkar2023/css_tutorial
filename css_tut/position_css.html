@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+    <style>
+      .main {
+        border: 5px dotted blue;
+        display: inline-block;
+      }
+      .box {
+        display: inline-block;
+        background-color: red;
+        width: 150px;
+        height: 150px;
+      }
+      /* Here as weh ave given position:relative we can move the green box relative to its current position to 20px from top and left without changing the layout around it.  
+      #two {
+        background-color: green;
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }*/
+
+      /* 
+      
+      Here as we have given position:absolute to orange box it will not leave any gap , the position of the orange box is based on its parent position position , thus moving 20px to left and bottom from top left origin of the dotted border.
+      */
+      #two {
+        position: absolute;
+        background: orange;
+        top: 20px;
+        left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box" id="one">One</div>
+      <div class="box" id="two">Two</div>
+      <div class="box" id="three">Three</div>
+      <div class="box" id="four">Four</div>
+      <div class="box" id="five">Five</div>
+    </div>
+  </body>
+</html>

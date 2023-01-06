@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marker pseudo element</title>
+    <style>
+      ::marker {
+        color: blue;
+      }
+      .ul1::marker {
+        color: red;
+      }
+      .ul2::marker {
+        color: rgb(255, 0, 208);
+      }
+      .ul3::marker {
+        color: rgb(0, 255, 64);
+      }
+      .ul4::marker {
+        color: rgb(255, 213, 0);
+      }
+      .ul5::marker {
+        color: rgb(255, 0, 153);
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="ul1">Apple</li>
+      <li class="ul2">Orange</li>
+      <li class="ul3">Pineapple</li>
+      <li class="ul4">Blueberries</li>
+      <li class="ul5">Grapes</li>
+    </ul>
+  </body>
+</html>

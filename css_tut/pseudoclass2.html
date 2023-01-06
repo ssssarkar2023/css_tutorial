@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo class Example 2</title>
+    <style>
+      main {
+        padding: 15px;
+      }
+      main:hover {
+        background-color: teal;
+        color: aliceblue;
+      }
+      .section:first-child:hover {
+        background-color: fuchsia;
+      }
+      .section h3:first-child {
+        background-color: green;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <section class="section">
+        <h3>Main Section heading</h3>
+        <h3>Main Section heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+          molestiae fugiat, a obcaecati sequi voluptatum aspernatur
+          necessitatibus illum itaque vero laborum impedit in, laboriosam
+          voluptatibus quaerat praesentium. Illo rerum labore repellendus fugit
+          suscipit natus consequatur!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+          molestiae fugiat, a obcaecati sequi voluptatum aspernatur
+          necessitatibus illum itaque vero laborum impedit in, laboriosam
+          voluptatibus quaerat praesentium. Illo rerum labore repellendus fugit
+          suscipit natus consequatur!
+        </p>
+      </section>
+      <article class="section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In ea hic
+          illo, amet porro iure ullam ut dolore ad. Dolores, quia dicta? Quo,
+          quos quas. Unde nulla odio eligendi sapiente. Tenetur nulla tempore
+          voluptates qui.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

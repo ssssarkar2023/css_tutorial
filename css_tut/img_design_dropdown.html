@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Image Dropdown</title>
+    <style>
+      section {
+        display: inline-block;
+        position: relative;
+      }
+      section > img {
+        height: 160px;
+        width: 200px;
+      }
+      section div > img {
+        height: 480px;
+        width: 550px;
+      }
+      div {
+        display: none;
+        position: absolute;
+      }
+
+      section:hover div {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img
+        src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      />
+      <div>
+        <img
+          src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        />
+      </div>
+    </section>
+
+    <section>
+      <img
+        src="https://images.pexels.com/photos/535431/pexels-photo-535431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      />
+      <div>
+        <img
+          src="https://images.pexels.com/photos/535431/pexels-photo-535431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        />
+      </div>
+    </section>
+  </body>
+</html>

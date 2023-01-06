@@ -1,0 +1,74 @@
+.grid-container{
+background-color:rgb(200, 0, 255);
+
+display:grid;
+
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(3,200px);
+grid-gap:15px
+}
+
+.item{
+    font-size:4rem;
+    text-align:center;
+    line-height:200px;
+    letter-spacing: 3px;
+}
+
+/*Grid Item Properties*/
+
+.item1{
+    background-color:chartreuse;
+
+    /*Changing the horizontal position*/
+    grid-row-start:2;
+    grid-row-end:3;
+
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+.item2 {
+    background-color: rgb(234, 255, 115);
+}
+.item3 {
+    background-color: rgb(255, 175, 105);
+}
+.item4 {
+    background-color: rgb(145, 216, 255);
+    /*Shorthand for both rows and columns->row-start/col-start/row-end/col-end;*/
+
+    grid-area:3/1/4/2;
+}
+.item5 {
+    background-color: rgb(126, 205, 117);
+    /*
+    grid-row-start:3;
+    grid-row-end: 4;
+
+    grid-column-start:2;
+    grid-column-end:3;
+    */
+    grid-row:3/4;
+    grid-column:2/3;
+}
+.item6 {
+    background-color: rgb(249, 140, 255);
+}
+.item7 {
+    background-color: rgb(145, 204, 255);
+}
+.item8 {
+    background-color: rgb(255, 118, 209);
+}
+.item9 {
+    background-color: rgb(164, 129, 89);
+}
+.item10 {
+    background-color: rgb(86, 49, 146);
+}
+.item11 {
+    background-color: rgb(94, 9, 70);
+}
+.item12 {
+    background-color: rgb(255, 111, 0);
+}

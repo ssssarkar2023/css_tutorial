@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox</title>
+    <style>
+      /*flex container=>Parent */
+      ul {
+        background: dodgerblue;
+        padding: 20px;
+
+        /*Flex container properties*/
+        display: flex;
+      }
+      /*Flex items=>Children*/
+      li {
+        list-style: none;
+        color: white;
+        background-color: coral;
+        padding: 10px;
+        margin: 20px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+        Flexbox works in one dimension either in rows or columns, it helps to design the flexible responsive layout of the page which makes to align items vertically and horzontally using rows and columns.
+    -->
+
+    <ul>
+      <!--Parent Element-->
+      <li>1st child</li>
+      <li>2nd child</li>
+      <li>3rd child</li>
+    </ul>
+  </body>
+</html>

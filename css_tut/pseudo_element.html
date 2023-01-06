@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Element Example 1</title>
+    <style>
+      p::first-line {
+        color: green;
+      }
+      p::first-letter {
+        color: red;
+        font-size: 28px;
+      }
+      label::after {
+        content: "*";
+      }
+      label::before {
+        content: "1-";
+      }
+      p::after {
+        content: "(;";
+      }
+      ::selection {
+        background-color: coral;
+        color: #fff;
+      }
+      .div1::selection {
+        background-color: rgb(200, 80, 255);
+        color: #fff;
+      }
+      .div2::selection {
+        background-color: rgb(255, 188, 80);
+        color: #fff;
+      }
+      .div3::selection {
+        background-color: rgb(188, 255, 249);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa
+      laudantium obcaecati quasi itaque facere, voluptate quisquam? Nostrum hic
+      vel numquam doloremque atque temporibus, tenetur explicabo debitis
+      molestias! Voluptate, iusto! Distinctio unde mollitia necessitatibus
+      ducimus.
+    </p>
+    <label for="name">Name</label>
+    <input type="text" />
+
+    <div class="div1">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio
+      delectus qui voluptatem! Veritatis cum quia error atque tenetur porro
+      distinctio quas nobis recusandae velit.
+    </div>
+    <div class="div2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio
+      delectus qui voluptatem! Veritatis cum quia error atque tenetur porro
+      distinctio quas nobis recusandae velit.
+    </div>
+    <div class="div3">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio
+      delectus qui voluptatem! Veritatis cum quia error atque tenetur porro
+      distinctio quas nobis recusandae velit.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+section{
+    background-color:dodgerblue;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    animation-name:mycircle;
+    animation-duration:4s;
+    animation-delay:3s;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-direction:alternate;
+    animation-direction: alternate-reverse;
+
+    animation:mycircle 4s 3s infinite normal;
+}
+
+
+@keyframes mycircle{
+    0% {
+            transform:translate(35rem,0);
+            background-color: rgb(240, 129, 129);
+            
+        }
+    
+        25% {
+            transform: translate(15rem, 15rem);
+            background-color: rgb(129, 240, 136);
+           
+        }
+    
+        50% {
+            transform: translate(30rem, 15rem);
+            background-color: rgb(240, 229, 129);
+            
+        }
+    
+        75% {
+            transform: translate(30rem, 30rem);
+            background-color: rgb(255, 0, 183);
+           
+        }
+    
+        100% {
+            transform: translate(15rem, 15rem);
+            background-color: rgb(255, 132, 37);
+           
+        }
+}

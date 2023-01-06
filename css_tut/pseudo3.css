@@ -1,0 +1,21 @@
+input:disabled{
+    background-color:lightcoral;
+    color:azure;
+}
+
+input:enabled{
+    background-color:green;
+    color:#fff;
+}
+
+input:checked{
+    height:150px;
+    width:150px;
+}
+
+p:last-child{
+    background-color:blue;
+}
+p:last-of-type{
+    background-color:crimson;
+}

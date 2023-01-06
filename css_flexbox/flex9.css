@@ -1,0 +1,46 @@
+ul {
+    background-color: lightslategray;
+
+    padding: 20px;
+    /*height: 300px;*/
+
+    display: flex;
+
+   
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: dodgerblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*FLex Items Children*/
+
+/* Order */
+/*
+Order(default=0) Value can be a +ve or -ve number, values are located on the main-axis which is horizontal (Default), if the flex direction is tow (by default).If the flex direction is column then the main-axis becomes vertical
+
+*/
+
+li:nth-child(3){
+    order:1;
+}
+
+li:nth-child(1){
+    order:2;
+}
+
+li:nth-child(6){
+    order:5;
+}
+
+li:nth-child(8){
+    order:-1;
+}
+
+li:nth-child(2){
+    order:-2;
+}

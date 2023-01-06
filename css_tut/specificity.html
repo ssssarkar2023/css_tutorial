@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity in CSS</title>
+    <style>
+      /* InlineCSS > ID > Class > Element > UniversalSelector  */
+      * {
+        color: coral;
+      }
+      h2 {
+        color: green;
+      }
+      p {
+        color: blue;
+      }
+      div {
+        color: blueviolet;
+      }
+      .p1 {
+        color: magenta;
+      }
+      #idp1 {
+        color: cyan;
+      }
+      .d1 {
+        color: rgb(255, 143, 255);
+      }
+      .idd1 {
+        color: deeppink;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Specificity</h2>
+
+    <p class="p1" id="idp1" style="color: fuchsia">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid non ut
+      incidunt velit iusto recusandae assumenda rem, nam eos perspiciatis saepe
+      sed ab vel unde eaque dolore et aperiam ipsam adipisci natus. Maiores, vel
+      error!
+    </p>
+
+    <div class="d1" id="idd1" style="color: dodgerblue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint amet
+      debitis, tempore reprehenderit magni beatae sequi tempora non recusandae,
+      sed ullam esse laboriosam, labore doloribus voluptas est! Sequi repellat
+      reprehenderit reiciendis dolorum. Enim reiciendis voluptate architecto,
+      labore rem facere, dolore, possimus officiis vel eum ipsa!
+    </div>
+
+    <h2>Lorem, ipsum.</h2>
+
+    <h1>Lorem, ipsum.</h1>
+  </body>
+</html>

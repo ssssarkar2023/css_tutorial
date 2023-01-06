@@ -1,0 +1,51 @@
+ul {
+    background-color: lightslategray;
+
+    padding: 20px;
+    /*height: 300px;*/
+
+    display: flex;
+
+    /*ALign Items*/
+    /*Default Direction=>Row=>Cross Axis=>Vertical*/
+
+    /*Stretch (Default)*/
+    /*align-items:stretch;*/
+
+    /*flex end*/
+    /*align-items:flex-end;*/
+
+    /*flex start*/
+    /*align-items:flex-start;*/
+
+    /*center*/
+   /* align-items:center;*/
+
+   /*baseline*/
+   align-items:baseline;
+
+}
+
+li{
+    list-style: none;
+        color: #fff;
+        background-color: dodgerblue;
+        margin: 20px;
+        padding: 10px;
+        width: 100px;
+        font-size: 20px;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom:20px;
+}
+
+li:nth-child(1){
+    padding:5px;
+}
+
+li:nth-child(3) {
+    padding: 5px;
+}
+li:nth-child(4) {
+    padding: 5px;
+}

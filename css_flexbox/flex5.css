@@ -1,0 +1,37 @@
+ul{
+    background-color: lightslategray;
+
+    padding:20px;
+    height:300px;/* added dor flex flow of columns*/
+
+    display:flex;
+
+    /*Flex flow*/
+    /*Row (Direction) Wrap(Wrap)*/
+   /* flex-flow:row wrap;*/
+
+   /*Column Wrap*/
+   /*flex-flow:column wrap;*/
+
+   /*Row-reverse wrap*/
+   /*flex-flow:row-reverse wrap;*/
+
+   /*Column nowrap*/
+   /*flex-flow:column nowrap;*/
+
+   /*Column reverse nowrap*/
+   /*flex-flow:column-reverse nowrap;*/
+
+
+}
+
+li{
+    list-style: none;
+        color: #fff;
+        background-color: dodgerblue;
+        margin: 20px;
+        padding: 10px;
+        width: 100px;
+        font-size: 20px;
+        text-align: center;
+}

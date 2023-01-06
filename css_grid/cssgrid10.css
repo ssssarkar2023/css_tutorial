@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* auto-fit only fits and auto-fill keeps creating */
+
+.container{
+    border:6px solid red;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+
+}
+.container-1 {
+    border: 6px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+
+}
+
+.cell{
+    padding:2rem;
+    background-color: bisque;
+    font-weight:bold;
+    text-align:center;
+    border:3px solid green;
+    color:rgb(78, 52, 52);
+}
+
+.cell-1{
+    background-color:rgb(101, 180, 255);
+}
+.cell-2 {
+    background-color: rgb(202, 88, 255);
+}
+.cell-3 {
+    background-color: rgb(255, 183, 88);
+}

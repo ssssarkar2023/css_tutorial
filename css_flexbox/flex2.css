@@ -1,0 +1,15 @@
+/*Flex Container=>Parent*/
+
+body{
+    display:flex;
+}
+
+/*Flex Items=>Children*/
+
+section{
+    width:20rem;
+    background-color:lightslategray;
+    padding:1.5rem;
+    margin:1rem;
+    color:#fff;
+}

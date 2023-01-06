@@ -1,0 +1,58 @@
+.grid-container {
+    background-color: dodgerblue;
+    display: grid;
+
+    grid-template-columns:[col-start-1] 140px [col-end-1 col-start-2] 200px [col-end-2 col-start-3] 250px [col-end-3 col-start-4] 300px [col-end-4 grid-end];
+
+    grid-template-rows: [row-start-1] 200px [row-end-1 row-start-2] 250px [row-end-2];
+
+
+}
+.item {
+    font-size: 2rem;
+   
+    letter-spacing: 3px;
+    background-color: #fcc006;
+}
+.item1 {
+    background-color: chartreuse;
+  /* grid-column:col-start-4/col-end-4;
+   grid-column:col-start-4/grid-end;
+   grid-column:col-start-4/-1;
+   grid-row:row-start-2/row-end-2;
+   */
+}
+.item2 {
+    background-color: rgb(234, 255, 115);
+   
+}
+
+.item3 {
+    background-color: rgb(255, 175, 105);
+    grid-column: col-start-4/col-end-4;
+    grid-row: row-start-2/row-end-2;
+}
+
+.item4 {
+    background-color: rgb(145, 216, 255);
+
+}
+
+.item5 {
+    background-color: rgb(126, 205, 117);
+
+
+}
+
+.item6 {
+    background-color: rgb(249, 140, 255);
+}
+
+.item7 {
+    background-color: rgb(145, 204, 255);
+
+}
+
+.item8 {
+    background-color: rgb(255, 118, 209);
+}

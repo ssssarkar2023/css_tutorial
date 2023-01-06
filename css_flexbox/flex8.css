@@ -1,0 +1,44 @@
+ul {
+    background-color: lightslategray;
+
+    padding: 20px;
+    /*height: 300px;*/
+
+    display: flex;
+    height:600px;
+
+    flex-wrap:wrap;
+    /*align content*/
+    /*Stretch*/
+    /*align-content:stretch;*/
+
+    /*flex start*/
+    /*align-content:flex-start;*/
+
+    /*flex end*/
+   /* align-content:flex-end;*/
+
+/*Space Between*/
+   /*align-content: space-between;*/
+
+
+   /*space around*/
+  /* align-content: space-around;*/
+
+/*space evenly*/
+   /* align-content: space-evenly;*/
+
+   /*center*/
+   align-content: center;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: dodgerblue;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+}

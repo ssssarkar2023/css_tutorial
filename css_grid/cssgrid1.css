@@ -1,0 +1,84 @@
+/* CSS Grid */
+
+/*
+
+CSS grid works on both rows and columns so it is a 2D layout.
+
+A CSS grid consists of a parent element with one or more child elements.
+
+*/
+.grid-container{
+    background-color:coral;
+    /*Initializing a grid layout*/
+    display: grid;
+
+    /*Grid container properties*/
+    grid-template-columns:150px 150px;
+
+    grid-template-rows: 150px 150px 150px 150px;
+
+    /*Grid column gap property*/
+    /*
+    grid-column-gap:10px;
+
+    grid-column-gap:1.5rem;
+
+    grid-column-gap:5%;
+
+    grid-column-gap:7vw;
+    */
+    /*Standard syntax*/
+    /*
+    column-gap: 10px;
+    
+    column-gap: 1.5rem;
+    
+    column-gap: 5%;
+    
+    column-gap: 7vw;
+    */
+    /*Grid Row property*/
+    /*
+    grid-row-gap:10px;
+
+    grid-row-gap: 1.5rem;
+    
+    grid-row-gap: 5%;
+
+    grid-row-gap: 7vw;
+    */
+    /*Standard syntax*/
+        /*
+        row-gap: 10px;
+        
+        row-gap: 1.5rem;
+        
+        row-gap: 5%;
+        
+        row-gap: 7vw;
+        */
+    
+        /*Shorthand property for grid-column-gap and grid-row-gap*/
+        /*<grid-row-gap><grid-column-gap>*/
+
+        /*Old syntax*/
+        /*
+        grid-gap:15px 25px;
+        grid-gap:10% 15%;
+        grid-gap:5vh 15vw;
+        grid-gap:25px 10rem;
+        */
+        /*Standard Syntax*/
+        gap: 15px 25px;
+        gap: 10% 15%;
+        gap: 5vh 15vw;
+        gap: 25px 10rem;
+    
+
+
+}
+
+/*Grid Items*/
+.item{
+    background-color:yellow;
+}

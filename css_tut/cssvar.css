@@ -1,0 +1,21 @@
+:root{
+    --darkblue:#1f2c8a;
+    --darklight:#7682de;
+
+    --darkgreen:#2d6928;
+    --lightgreen: #99e694;
+
+    --darkred:rgb(150, 45, 45);
+    --lightred:rgb(255, 139, 139);
+}
+
+body{
+    background-color:var(--lightred);
+}
+h2{
+    border-bottom:3px solid var(--darklight);
+}
+.div1{
+    color:var(--darkred);
+    background-color:var(--darkblue);
+}

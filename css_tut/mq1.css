@@ -1,0 +1,79 @@
+/*
+Responsive Design
+Style elements on different screen sizes
+
+min-width -> starting from
+
+max-width -> up to
+
+*/
+
+body{
+    background-color:coral;
+}
+.banner{
+    background-color:dodgerblue;
+}
+h1{
+    color:#fff;
+    text-align: center;
+    
+}
+
+/*
+@media screen and (min-width:600px){
+    body{
+        background-color:yellow;
+    }
+    .banner{
+        background-color:green;
+    }
+    h1{
+        color:#000;
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    body {
+        background-color: rgb(129, 94, 255);
+    }
+
+    .banner {
+        background-color: rgb(255, 115, 0);
+    }
+
+    h1 {
+        color: rgb(255, 0, 225);
+        font-size: 80px;
+    }
+}
+*/
+@media screen and (max-width:768px) {
+    body {
+        background-color: rgb(129, 94, 255);
+    }
+
+    .banner {
+        background-color: rgb(255, 115, 0);
+    }
+
+    h1 {
+        color: rgb(255, 0, 225);
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:576px) {
+    body {
+        background-color: yellow;
+    }
+
+    .banner {
+        background-color: green;
+    }
+
+    h1 {
+        color: #000;
+        font-size: 60px;
+    }
+}
